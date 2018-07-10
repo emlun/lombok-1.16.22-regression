@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+repositories {
+  mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '4.5.1'
+}
+
+dependencies {
+  compileOnly 'org.projectlombok:lombok:1.16.20'
+  testCompile 'junit:junit:4.12'
+}
