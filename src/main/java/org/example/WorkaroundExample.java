@@ -12,6 +12,7 @@ import lombok.EqualsAndHashCode;
 public class WorkaroundExample {
 
     int a;
+    @EqualsAndHashCode.Exclude
     transient int b;
 
     public WorkaroundExample(int a, int b) {
