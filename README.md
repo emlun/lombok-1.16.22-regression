@@ -1,4 +1,5 @@
-== Lombok 1.18.0 @EqualsAndHashCode bug example
+Lombok 1.18.0 @EqualsAndHashCode bug example
+===
 
 This is a minimal-ish example reproducing a regression between Lombok versions
 1.16.20 and 1.16.22: the `@EqualsAndHashCode` annotation does include
